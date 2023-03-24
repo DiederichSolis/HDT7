@@ -4,7 +4,9 @@ public class Data {
     private String spanish;
     private String french;
 
-
+    public Data(){
+    }
+    
     public Data(String word, String english, String spanish, String french) {
         super();
         this.word = word;
