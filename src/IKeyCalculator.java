@@ -1,3 +1,3 @@
-public class IKeyCalculator {
-    
+public interface IKeyCalculator <K, T> {
+    public K GetKey(T value);
 }
